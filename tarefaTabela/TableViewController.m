@@ -21,9 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    nameData = [NSArray arrayWithObjects:@"Genius", @"Contador", @"Lista"];
-    descriptionData = [NSArray arrayWithObjects:@"Jogos", @"Utilitário", @"Utilitário"];
-    imageData = [NSArray arrayWithObjects:@"genius.png", @"contador.png", @"lista.png"];
+    nameData = [NSArray arrayWithObjects:@"Genius", @"Contador", @"Lista", nil];
+    descriptionData = [NSArray arrayWithObjects:@"Jogos", @"Utilitário", @"Utilitário", nil];
+    imageData = [NSArray arrayWithObjects:@"genius.png", @"contador.png", @"lista.png", nil];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -39,13 +39,13 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
+//#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
+//#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return [nameData count];
 }
