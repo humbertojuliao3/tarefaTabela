@@ -6,8 +6,11 @@
 //  Copyright (c) 2015 Rafael Souza Belchior da Silva. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface TableViewController : NSObject
+@interface TableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UIImageView *imageIcon;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
 
 @end
