@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EBD47541A9E6DA30013A4A1 /* AppDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD474F1A9E6DA30013A4A1 /* AppDetailViewController.m */; };
+		3EBD47551A9E6DA30013A4A1 /* AppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD47511A9E6DA30013A4A1 /* AppTableViewCell.m */; };
+		3EBD47561A9E6DA30013A4A1 /* AppTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD47531A9E6DA30013A4A1 /* AppTableViewController.m */; };
 		3EC311B21A9E12660050BBDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC311B11A9E12660050BBDC /* main.m */; };
 		3EC311B51A9E12660050BBDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC311B41A9E12660050BBDC /* AppDelegate.m */; };
 		3EC311BB1A9E12660050BBDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC311B91A9E12660050BBDC /* Main.storyboard */; };
 		3EC311BD1A9E12660050BBDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC311BC1A9E12660050BBDC /* Images.xcassets */; };
 		3EC311C01A9E12660050BBDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC311BE1A9E12660050BBDC /* LaunchScreen.xib */; };
 		3EC311CC1A9E12660050BBDC /* tarefaTabelaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC311CB1A9E12660050BBDC /* tarefaTabelaTests.m */; };
-		3EC311D71A9E12B70050BBDC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC311D61A9E12B70050BBDC /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EBD474E1A9E6DA30013A4A1 /* AppDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailViewController.h; sourceTree = "<group>"; };
+		3EBD474F1A9E6DA30013A4A1 /* AppDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailViewController.m; sourceTree = "<group>"; };
+		3EBD47501A9E6DA30013A4A1 /* AppTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTableViewCell.h; sourceTree = "<group>"; };
+		3EBD47511A9E6DA30013A4A1 /* AppTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTableViewCell.m; sourceTree = "<group>"; };
+		3EBD47521A9E6DA30013A4A1 /* AppTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTableViewController.h; sourceTree = "<group>"; };
+		3EBD47531A9E6DA30013A4A1 /* AppTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTableViewController.m; sourceTree = "<group>"; };
 		3EC311AC1A9E12660050BBDC /* tarefaTabela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarefaTabela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC311B01A9E12660050BBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EC311B11A9E12660050BBDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,8 +46,6 @@
 		3EC311C51A9E12660050BBDC /* tarefaTabelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tarefaTabelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC311CA1A9E12660050BBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EC311CB1A9E12660050BBDC /* tarefaTabelaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tarefaTabelaTests.m; sourceTree = "<group>"; };
-		3EC311D51A9E12B70050BBDC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		3EC311D61A9E12B70050BBDC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +92,13 @@
 				3EC311B91A9E12660050BBDC /* Main.storyboard */,
 				3EC311BC1A9E12660050BBDC /* Images.xcassets */,
 				3EC311BE1A9E12660050BBDC /* LaunchScreen.xib */,
+				3EBD474E1A9E6DA30013A4A1 /* AppDetailViewController.h */,
+				3EBD474F1A9E6DA30013A4A1 /* AppDetailViewController.m */,
+				3EBD47501A9E6DA30013A4A1 /* AppTableViewCell.h */,
+				3EBD47511A9E6DA30013A4A1 /* AppTableViewCell.m */,
+				3EBD47521A9E6DA30013A4A1 /* AppTableViewController.h */,
+				3EBD47531A9E6DA30013A4A1 /* AppTableViewController.m */,
 				3EC311AF1A9E12660050BBDC /* Supporting Files */,
-				3EC311D51A9E12B70050BBDC /* TableViewController.h */,
-				3EC311D61A9E12B70050BBDC /* TableViewController.m */,
 			);
 			path = tarefaTabela;
 			sourceTree = "<group>";
@@ -220,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EC311B51A9E12660050BBDC /* AppDelegate.m in Sources */,
-				3EC311D71A9E12B70050BBDC /* TableViewController.m in Sources */,
+				3EBD47561A9E6DA30013A4A1 /* AppTableViewController.m in Sources */,
 				3EC311B21A9E12660050BBDC /* main.m in Sources */,
+				3EBD47541A9E6DA30013A4A1 /* AppDetailViewController.m in Sources */,
+				3EBD47551A9E6DA30013A4A1 /* AppTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				3EC311D11A9E12660050BBDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EC311D21A9E12660050BBDC /* Build configuration list for PBXNativeTarget "tarefaTabelaTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				3EC311D41A9E12660050BBDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
